@@ -151,7 +151,7 @@ class ViewController: UIViewController {
                         actionSheetController.addAction(nextAction)
                         
                         //Create and an option action
-                        let ChangeNameAction: UIAlertAction = UIAlertAction(title: "Changer de nom ?", style: .Default) { action -> Void in
+                        let ChangeNameAction: UIAlertAction = UIAlertAction(title: "Revenir au menu", style: .Default) { action -> Void in
                             self.performSegueWithIdentifier("goLogin", sender: self)
                         }
                         actionSheetController.addAction(ChangeNameAction)
